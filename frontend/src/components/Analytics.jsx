@@ -61,7 +61,7 @@ const Analytics = ({ projects, tasks }) => {
 
         {/* Task Status Pie Chart */}
         <div>
-          <h3 className="text-lg font-semibold mb-2">Task Status Distribution</h3>
+          <h3 className="text-lg font-semibold mb-2">Overall Task Status Across All Users 📊</h3>
           <ResponsiveContainer width="100%" height={300}>
             <PieChart>
               <Pie
